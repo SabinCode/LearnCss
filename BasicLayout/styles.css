@@ -1,0 +1,55 @@
+
+/* all elememts with * selects calculating the width factoring the  padding for all three elemenets to line up. */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: hsl(34, 78%, 15%);
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    clear: both;
+}
+/* clear both to remove float */ 
+
+@media screen and (max-width:600px){
+    aside, section, article{
+        width:100%   
+    }
+}
+/* @media rule if the width of our screen or window 600px or below we can change some CSS properties */
+/* this will ensure that if the users is on a mobile device or on 600px window device , it will switch to a mobile version. */

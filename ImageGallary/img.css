@@ -1,0 +1,62 @@
+.gallary{
+    display: inline-block;
+    border: 1px solid hsl(0,0%,60%);
+    margin: 5px;
+    width: 200px;
+}
+/* width of our imgs is 100% of width of our .gallary */
+
+
+.gallary .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallary:hover{
+    border: 1px solid hsl(0,0%,10%);
+}
+
+.gallary img{
+    width: 100%;
+    height: auto;
+}
+
+.icons{
+    text-align: center;
+}
+
+.fa-solid.fa-house.fa-5x{
+    color: hsl(0,0%,50%);
+}
+
+.fa-solid.fa-house.fa-5x:hover{
+    color: hsl(0,0%,80%);
+}
+
+.fa-brands.fa-twitter.fa-5x{
+    color: hsl(194, 75%, 51%);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: hsl(194, 75%, 81%);
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: hsl(0, 75%, 52%);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(0, 75%, 82%);
+}
+
+.fa-brands.fa-tiktok.fa-5x{
+    color: hsl(0, 0%, 7%);
+}
+.fa-brands.fa-tiktok.fa-5x:hover{
+    color: hsl(0, 0%, 50%);
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* text decoratio none will remove black line showing up below the icons because of a tag */

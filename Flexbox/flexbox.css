@@ -1,0 +1,36 @@
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 59%, 41%);
+}
+
+#box2{
+    background-color: hsl(271, 76%, 53%);
+    order: 1;
+}
+
+/* order:1 will put box to end and order: -1 will place box to front */
+
+
+
+#box3{
+    background-color: hsl(160, 100%, 75%);
+}
+
+#box4{
+    background-color: hsl(240, 100%, 50%);
+}
+
+.container{
+    display: flex;
+   justify-content: space-evenly;
+   border: 10px solid black;
+   height: 90vh;
+}
+
